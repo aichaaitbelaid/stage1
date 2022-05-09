@@ -10,6 +10,9 @@ import { ServicesComponent } from './plateforme/bodyComponent/body/services/serv
 import { AvisComponent } from './plateforme/bodyComponent/footer/avis/avis.component';
 
 import { AdressComponent } from './plateforme/footer/adress/adress.component';
+import {NosLocalisationsComponent} from "./plateforme/nos-localisations/nos-localisations.component";
+import {PermisComponent} from "./plateforme/permis/permis.component";
+import { AgenceComponent } from './plateforme/agence/agence.component';
 
 
 @NgModule({
@@ -22,6 +25,9 @@ import { AdressComponent } from './plateforme/footer/adress/adress.component';
     AvisComponent,
 
     AdressComponent,
+    NosLocalisationsComponent,
+    PermisComponent,
+    AgenceComponent
 
   ],
   imports: [
