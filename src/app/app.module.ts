@@ -13,6 +13,10 @@ import { AdressComponent } from './plateforme/footer/adress/adress.component';
 import {NosLocalisationsComponent} from "./plateforme/nos-localisations/nos-localisations.component";
 import {PermisComponent} from "./plateforme/permis/permis.component";
 import { AgenceComponent } from './plateforme/agence/agence.component';
+import {MoniteurComponent} from "./plateforme/moniteur/moniteur.component";
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { ConnexionComponent } from './plateforme/connexion/connexion.component';
+import { ZoneAvisComponent } from './plateforme/zone-avis/zone-avis.component';
 
 
 @NgModule({
@@ -20,14 +24,20 @@ import { AgenceComponent } from './plateforme/agence/agence.component';
     AppComponent,
     PlateformeComponent,
     MenuComponent,
-    ImageComponent,
-    ServicesComponent,
-    AvisComponent,
 
-    AdressComponent,
+    AvisComponent,
+    MoniteurComponent,
+
+
     NosLocalisationsComponent,
     PermisComponent,
-    AgenceComponent
+    AgenceComponent,
+    LandingPageComponent,
+    ImageComponent,
+    ServicesComponent,
+    AdressComponent,
+    ConnexionComponent,
+    ZoneAvisComponent
 
   ],
   imports: [
