@@ -17,7 +17,13 @@ import {MoniteurComponent} from "./plateforme/moniteur/moniteur.component";
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ConnexionComponent } from './plateforme/connexion/connexion.component';
 import { ZoneAvisComponent } from './plateforme/zone-avis/zone-avis.component';
-
+import { ModalComponent } from './plateforme/modal/modal.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import {MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AComponent } from './a/a.component';
 
 @NgModule({
   declarations: [
@@ -37,12 +43,18 @@ import { ZoneAvisComponent } from './plateforme/zone-avis/zone-avis.component';
     ServicesComponent,
     AdressComponent,
     ConnexionComponent,
-    ZoneAvisComponent
+    ZoneAvisComponent,
+    ModalComponent,
+    AComponent
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatDialogModule,
+    BrowserAnimationsModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

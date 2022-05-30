@@ -9,10 +9,11 @@ import {ImageComponent} from "./plateforme/bodyComponent/header/image/image.comp
 import {ServicesComponent} from "./plateforme/bodyComponent/body/services/services.component";
 import {AgenceComponent} from "./plateforme/agence/agence.component";
 import {ZoneAvisComponent} from "./plateforme/zone-avis/zone-avis.component";
+import {ModalComponent} from "./plateforme/modal/modal.component";
 
 
 const routes: Routes = [{path:'nos Localisation' ,component: NosLocalisationsComponent },
-  {path:'Permis', component: PermisComponent},{path:'', component: ImageComponent },{path:'ag', component: AgenceComponent},{path:'zone', component: ZoneAvisComponent}];
+  {path:'Permis', component: PermisComponent},{path:'ag', component: AgenceComponent},{path:'', component: ImageComponent },{path:'zone', component: ZoneAvisComponent}];
 
 
 @NgModule({
