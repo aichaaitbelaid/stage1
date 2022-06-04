@@ -23,7 +23,10 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AComponent } from './a/a.component';
+import {HttpClientModule} from "@angular/common/http";
+/*import { AComponent } from './a/a.component';*/
+
+
 
 @NgModule({
   declarations: [
@@ -45,13 +48,14 @@ import { AComponent } from './a/a.component';
     ConnexionComponent,
     ZoneAvisComponent,
     ModalComponent,
-    AComponent
+
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatDialogModule,
+    HttpClientModule,
     BrowserAnimationsModule,
 
 

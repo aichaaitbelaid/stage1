@@ -12,8 +12,10 @@ import {ZoneAvisComponent} from "./plateforme/zone-avis/zone-avis.component";
 import {ModalComponent} from "./plateforme/modal/modal.component";
 
 
-const routes: Routes = [{path:'nos Localisation' ,component: NosLocalisationsComponent },
-  {path:'Permis', component: PermisComponent},{path:'ag', component: AgenceComponent},{path:'', component: ImageComponent },{path:'zone', component: ZoneAvisComponent}];
+const routes: Routes = [{path:'noslocalisations' ,component: NosLocalisationsComponent },
+  {path:'permis', component: PermisComponent},{path:'ag', component: AgenceComponent},
+  {path:'', component: LandingPageComponent}
+];
 
 
 @NgModule({

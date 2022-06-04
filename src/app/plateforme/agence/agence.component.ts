@@ -1,17 +1,17 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {EcoleService} from "../../Controller/service/Ecole.service";
-import {EcoleVo} from "../../Controller/model/model/Ecole.model";
+import {EcoleVo} from "../../Controller/model/Ecole.model";
 import {GerantService} from "../../Controller/service/Gerant.service";
-import {GerantVo} from "../../Controller/model/model/Gerant.model";
+import {GerantVo} from "../../Controller/model/Gerant.model";
 import {CategoriePermisService} from "../../Controller/service/CategoriePermis.service";
-import {CategoriePermisVo} from "../../Controller/model/model/CategoriePermis.model";
+import {CategoriePermisVo} from "../../Controller/model/CategoriePermis.model";
 import {VehiculeService} from "../../Controller/service/Vehicule.service";
-import {VehiculeVo} from "../../Controller/model/model/Vehicule.model";
+import {VehiculeVo} from "../../Controller/model/Vehicule.model";
 import {TypeVehiculeService} from "../../Controller/service/TypeVehicule.service";
-import {TypeVehiculeVo} from "../../Controller/model/model/TypeVehicule.model";
+import {TypeVehiculeVo} from "../../Controller/model/TypeVehicule.model";
 import {MarqueService} from "../../Controller/service/Marque.service";
-import {MarqueVo} from "../../Controller/model/model/Marque.model";
+import {MarqueVo} from "../../Controller/model/Marque.model";
 
 @Component({
   selector: 'app-agence',

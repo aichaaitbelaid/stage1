@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {AvisVisiteurService} from "../../../../Controller/service/AvisVisiteur.service";
-import {AvisVisiteurVo} from "../../../../Controller/model/model/AvisVisiteur.model";
+import {AvisVisiteurVo} from "../../../../Controller/model/AvisVisiteur.model";
 import {TypeAvisService} from "../../../../Controller/service/TypeAvis.service";
-import {TypeAvisVo} from "../../../../Controller/model/model/TypeAvis.model";
+import {TypeAvisVo} from "../../../../Controller/model/TypeAvis.model";
 
 @Component({
   selector: 'app-avis',

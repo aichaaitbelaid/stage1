@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {MessageService} from "../../../Controller/service/Message.service";
-import {MessageVo} from "../../../Controller/model/model/Message.model";
+import {MessageVo} from "../../../Controller/model/Message.model";
 import {EtatMessageService} from "../../../Controller/service/EtatMessage.service";
-import {EtatMessageVo} from "../../../Controller/model/model/EtatMessage.model";
+import {EtatMessageVo} from "../../../Controller/model/EtatMessage.model";
 
 @Component({
   selector: 'app-adress',
