@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 20px;
+  height: 65px;
+
+
+}
+th{
+  font-size: 14px;
+  color:black;
+  background-color: #62daff;
+  font-weight: bold;
+  text-align: center;
+}
