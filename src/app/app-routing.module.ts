@@ -10,11 +10,13 @@ import {ServicesComponent} from "./plateforme/bodyComponent/body/services/servic
 import {AgenceComponent} from "./plateforme/agence/agence.component";
 import {ZoneAvisComponent} from "./plateforme/zone-avis/zone-avis.component";
 import {ModalComponent} from "./plateforme/modal/modal.component";
+import {LoginAdminComponent} from "./module/admin/login-admin/login-admin.component";
+
 
 
 const routes: Routes = [{path:'noslocalisations' ,component: NosLocalisationsComponent },
   {path:'permis', component: PermisComponent},{path:'ag', component: AgenceComponent},
-  {path:'', component: LandingPageComponent}
+  {path:'', component: LandingPageComponent},{path:'cnx' , component:LoginAdminComponent}
 ];
 
 

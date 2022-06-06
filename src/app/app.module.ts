@@ -15,7 +15,6 @@ import {PermisComponent} from "./plateforme/permis/permis.component";
 import { AgenceComponent } from './plateforme/agence/agence.component';
 import {MoniteurComponent} from "./plateforme/moniteur/moniteur.component";
 import { LandingPageComponent } from './landing-page/landing-page.component';
-import { ConnexionComponent } from './plateforme/connexion/connexion.component';
 import { ZoneAvisComponent } from './plateforme/zone-avis/zone-avis.component';
 import { ModalComponent } from './plateforme/modal/modal.component';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -24,7 +23,15 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HttpClientModule} from "@angular/common/http";
-/*import { AComponent } from './a/a.component';*/
+import {LoginAdminComponent} from "./module/admin/login-admin/login-admin.component";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {EcolListComponent} from "./module/admin/view/ecole/ecol-list/ecol-list.component";
+import {MatPaginatorModule} from "@angular/material/paginator";
+import {MatLabel} from "@angular/material/form-field";
+import {MatTableModule} from "@angular/material/table";
+import { AComponent } from './a/a.component';
+
+
 
 
 
@@ -36,6 +43,8 @@ import {HttpClientModule} from "@angular/common/http";
 
     AvisComponent,
     MoniteurComponent,
+    LoginAdminComponent,
+
 
 
     NosLocalisationsComponent,
@@ -45,9 +54,12 @@ import {HttpClientModule} from "@angular/common/http";
     ImageComponent,
     ServicesComponent,
     AdressComponent,
-    ConnexionComponent,
+
+EcolListComponent,
     ZoneAvisComponent,
     ModalComponent,
+    AComponent,
+
 
 
   ],
@@ -57,6 +69,13 @@ import {HttpClientModule} from "@angular/common/http";
     MatDialogModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
+    FormsModule,
+    MatIconModule,
+    MatPaginatorModule,
+    MatTableModule
+
+
 
 
   ],

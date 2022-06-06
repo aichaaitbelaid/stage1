@@ -42,17 +42,17 @@ export class EcoleService {
      return this.http.get<Array<EcoleVo>>(this.API);
     }
 
-    public save(): Observable<EcoleVo> {
-           return this.http.post<EcoleVo>(this.API, {...this.selectedEcole,dateAbonnement: moment(this.selectedEcole.dateAbonnement).format("YYYY-MM-DD")});
+     save(ecole:EcoleVo): Observable<EcoleVo> {
+           return this.http.post<EcoleVo>("http://localhost:8036/pi/admin/ecole/",ecole)
     }
 
-    delete(ecole: EcoleVo) {
-         return this.http.delete<number>(this.API + 'id/' + ecole.id);
+  delete(reference:string) {
+         return this.http.delete<number>(this.API + 'reference/' +reference);
     }
 
 
-    public edit(): Observable<EcoleVo> {
-        return this.http.put<EcoleVo>(this.API, this.selectedEcole);
+    public edit(ecole:EcoleVo): Observable<EcoleVo> {
+        return this.http.put<EcoleVo>(this.API,ecole);
     }
 
 
